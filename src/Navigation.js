@@ -1,6 +1,7 @@
 import { Fragment } from "react";
-import { Nav,Navbar,Container ,Button} from "react-bootstrap";
+import { Nav,Navbar,Container} from "react-bootstrap";
 import Cards from "./Card";
+import Cart from "./CartButton";
 
 const Navigation=(() => {
    
@@ -14,8 +15,7 @@ const Navigation=(() => {
             <Nav.Link href="#features" style={{color:"white",fontSize:'35px',fontFamily:"sans-serif"}}>STORE</Nav.Link>
             <Nav.Link href="#pricing" style={{color:"white",fontSize:'35px',fontFamily:"sans-serif"}}>ABOUT</Nav.Link>
             
-             <Button variant="dark" style={{color:"white",fontSize:'35px',fontFamily:"sans-serif",marginRight:10,paddingRight:'20px' }}>Cart</Button>
-
+            <Cart/>
            </Nav>
           </Container>
       </Navbar>

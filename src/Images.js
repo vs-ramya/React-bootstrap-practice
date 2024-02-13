@@ -40,7 +40,7 @@ function ShapeExample({ addToCart }) {
             <Image src={product.imageUrl} thumbnail />
             <h5>{product.title}</h5>
             <p>${product.price}</p>
-            <Button onClick={() => addToCart(product)}>Add to Cart</Button>
+            <Button onClick={() => console.log(productsArr)}>Add to Cart</Button>
           </Col>
         ))}
       </Row>

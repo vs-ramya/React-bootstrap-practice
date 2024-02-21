@@ -14,8 +14,17 @@ const Navigation=(() => {
          
           <Nav className="mx-auto" >
             <NavLink to="/Home" style={{color:"white",fontSize:'35px',fontFamily:"sans-serif"}}>HOME</NavLink>
+            </Nav>
+            <Nav className="mx-auto">
             <NavLink href="#features" style={{color:"white",fontSize:'35px',fontFamily:"sans-serif"}}>STORE</NavLink>
+            </Nav>
+            <Nav className="mx-auto">
             <NavLink to="/About" style={{color:"white",fontSize:'35px',fontFamily:"sans-serif"}} >ABOUT </NavLink>
+            </Nav>
+            <Nav className="mx-auto">
+            <NavLink to="/ContactUs" style={{ color: "white", fontSize: "35px", fontFamily: "sans-serif" }}>CONTACT US</NavLink>
+            </Nav>
+            <Nav className="mx-auto">
 
             
             <Cart/>
